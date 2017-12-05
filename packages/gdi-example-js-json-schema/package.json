@@ -4,11 +4,17 @@
   "description": "Example app to build initial functionality",
   "main": "index.js",
   "scripts": {
+    "start": "babel src --out-dir dist && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Dacre <alex@alexdacre.com>",
   "license": "MIT",
   "dependencies": {
-    "graphical-data-interface": "^0.0.1"
+    "graphical-data-interface": "^0.0.1",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
