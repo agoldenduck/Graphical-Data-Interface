@@ -1,0 +1,14 @@
+{
+  "name": "gdi-example-js-json-schema",
+  "version": "0.0.1",
+  "description": "Example app to build initial functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Dacre <alex@alexdacre.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphical-data-interface": "^0.0.1"
+  }
+}
