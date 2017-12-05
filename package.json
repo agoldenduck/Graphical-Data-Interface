@@ -1,4 +1,27 @@
 {
+  "name": "graphical-data-interface",
+  "version": "0.0.1",
+  "description": "Auto generate your forms, using your schemas, into your favourite framework, validated with your favourite validator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agoldenduck/Graphical-Data-Interface.git"
+  },
+  "keywords": [
+    "forms",
+    "form-builder",
+    "form-controls"
+  ],
+  "author": "Alex Dacre <alex@alexdacre.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agoldenduck/Graphical-Data-Interface/issues"
+  },
+  "homepage": "https://github.com/agoldenduck/Graphical-Data-Interface#readme",
 	"devDependencies": {
 		"lerna": "^2.5.1"
 	}
