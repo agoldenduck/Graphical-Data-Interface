@@ -1,1 +1,3 @@
-const GDIForm = require('graphical-data-interface')
+import GDIForm from 'graphical-data-interface'
+
+export default GDIForm
