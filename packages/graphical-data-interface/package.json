@@ -4,7 +4,7 @@
   "description": "Auto generate your forms, using your schemas, into your favourite framework, validated with your favourite validator",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec babel-node",
+    "dev": "nodemon --exec 'babel src -d dist'",
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
